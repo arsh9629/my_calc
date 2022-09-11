@@ -1,0 +1,38 @@
+#key {
+  display: inline-block;
+  border: 1px rgb(167, 139, 87) solid;
+  padding: 20px;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 500px;
+}
+.output {
+  width: 480px;
+  border: 1px solid;
+  height: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: burlywood;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+}
+.calc {
+  border: solid 1px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: wheat;
+}
+.equal {
+  /* text-align: center; */
+  background-color: burlywood;
+}
